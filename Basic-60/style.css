@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Georgia, "Times New Roman", Times, serif;
+}
+body{
+    width:960px;
+    margin:0 auto;
+    border:1px solid #000;
+    color: #c0bab6;
+}
+.header{
+    display:flex;
+    justify-content:space-between; 
+    align-items: center;
+    background-color: #333333;
+}
+.logo{
+    padding: 20px ;
+    font-size: 24px;
+}
+.logo h6{
+    font-size: 24px;
+} 
+.logo p{
+    font-size: 15px;
+}
+
+.header nav a{
+    padding: 5px 10px;
+    color: #c0bab6;
+    text-decoration: none;
+    font-size: 13px
+}
+
+.header nav a:hover{
+    color: #ff9900
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main-left{
+    padding-left: 20px;
+    width: 60%;
+}
+
+.main-left h1{
+     font-size: 20px;
+     font-weight: normal;
+     margin-bottom: 15px;
+     margin-top: 20px;
+}
+
+.main-left p {
+    font-size: 13px;
+    margin-bottom: 15px
+}
+
+.text-orange{
+    color: #ff9900
+}
+
+.main-left ul{
+    padding-left : 40px;
+    font-size: 13px;
+    margin-bottom: 20px
+}
+
+.col-2{
+    display:flex;
+    justify-content: space-between;
+}
+
+.imgBorder{
+    width: 269px;
+    border: 1px solid #000;
+    padding: 4px
+}
+
+.imgBorder div{
+    height: 100px;
+    background-color: #000;
+    color: #c0bab6; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-2 h2{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 15px 0;
+}
+
+.col-2 a{
+    float: right;
+    text-decoration: none
+}
+.bottom-2{
+    display:flex;
+    align-items: center;
+}
+    .imgBorder2{
+        border:1px solid #000;
+        width:80px;
+        flex-basis:40%;
+        padding:4px;
+        margin: 0 15px 15px 0;
+       
+    }
+    .imgBorder2 div{
+        background-color:#000;
+        height:80px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .main-right{
+        width: 40%;
+    }
+    .list h2{
+        font-size: 22px;
+        font-weight: normal;
+        margin: 20px 15px 20px 15px;
+    }
+    .list ul li{
+     font-size: 13px;
+     padding: 5px 10px 5px 20px;
+     list-style-type: none;
+    }
+    
+    .list ul li a{
+        border-bottom: 1px dotted #c0bab6;
+        text-decoration: none;
+        display: block;
+    }

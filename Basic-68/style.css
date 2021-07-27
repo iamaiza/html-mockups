@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header{
+    width: 100%;
+    color:#c0bab6 ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #333333;
+    padding: 15px 0 15px 0;
+}
+.header h2{
+    font-size: 36px;
+    font-weight: normal;
+}
+.header p{
+    font-size: 15px;
+}
+.header nav{
+    padding-right: 15px;
+}
+.header nav a{
+    padding: 5px 10px;
+    color:#c0bab6;
+    text-decoration: none;
+}
+.main{
+    width: 960px;
+    margin: 0 auto;
+}
+.one-fifth{
+    display: flex;
+    justify-content: space-between;
+    color: #979797;
+}
+.heading{
+    font-size: 24px;
+    font-weight: normal;
+}
+.paragraph{
+    font-size: 13px;
+    padding-top: 10px;
+    padding-right: 20px;
+    text-align: justify;
+}
+.main-2{
+    width: 960px;
+    margin: 0 auto;
+}  
+.two-fifth{
+    display: flex;
+    justify-content: space-between;
+    color: #979797;
+}
+.heading-2{
+    font-size: 24px;
+    font-weight: normal;
+}
+.paragraph-2{
+    font-size: 13px;
+    padding-top: 10px;
+    padding-right: 20px;
+    text-align: justify;
+}
+.main-3{
+    width: 960px;
+    margin: 0 auto;
+}
+.three-fifth{
+    display: flex;
+    justify-content: space-between;
+    color: #979797;
+}
+.heading-3{
+    font-size: 24px;
+    font-weight: normal;
+}
+.paragraph-3{
+    font-size: 13px;
+    padding-top: 10px;
+    padding-right: 20px;
+    text-align: justify;
+}
+.main-4{
+    width: 960px;
+    margin: 0 auto;
+}
+.four-fifth{
+     display: flex;
+     justify-content: space-between;
+    color: #979797;
+}
+.heading-4{
+    font-size: 24px;
+    font-weight: normal;
+}
+.paragraph-4{
+    font-size: 13px;
+    padding-top: 10px;
+    padding-right: 20px;
+    text-align: justify;
+}
+.main-5{
+    width: 960px;
+    margin: 0 auto;
+    color: #979797;
+
+}
+.five-fifth h2{
+    font-size: 24px;
+    font-weight: normal;
+}
+.five-fifth p{
+    font-size: 13px;
+    padding-top: 10px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 13px;
+    color: #fff;
+    background-color: #1e1e1e;
+    padding: 25px 0 30px 0;
+}
