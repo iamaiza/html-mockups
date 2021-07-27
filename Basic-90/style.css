@@ -231,3 +231,12 @@
     float: right;
     padding-top: 20px;
 }
+
+.footer{
+    background-color: #232323;
+    color: #919191;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0 25px 0;
+}
